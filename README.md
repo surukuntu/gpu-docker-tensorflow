@@ -22,6 +22,7 @@ jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
 
 #### 5. Connect to notebook from browser 
 Ensure you have firewall rules correctly set up and access notebooks at below address. If you rather not open up the port to the public, you could use ssh tunneling. 
+
 http://<<ip>>:8888/tree 
 
 ### Commands for stats
