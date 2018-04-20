@@ -15,8 +15,8 @@ if ! nvidia-smi ; then
   apt-get update
   apt-get install -y curl build-essential
 
-  curl -O -s http://us.download.nvidia.com/XFree86/Linux-x86_64/387.34/NVIDIA-Linux-x86_64-387.34.run
-  sh ./NVIDIA-Linux-x86_64-387.34.run -a --ui=none --no-x-check && rm NVIDIA-Linux-x86_64-387.34.run
+  curl -O -s http://us.download.nvidia.com/XFree86/Linux-x86_64/390.46/NVIDIA-Linux-x86_64-390.46.run
+  sh ./NVIDIA-Linux-x86_64-390.46.run -a --ui=none --no-x-check && rm NVIDIA-Linux-x86_64-390.46.run
 
   echo "\nInstalled NVIDIA drivers."
 else
